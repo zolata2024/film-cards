@@ -11,6 +11,7 @@ gap:20px ;
     background: lightblue;
     border-radius: 15px;
     width: fit-content;
+    transition: all 0.48s;
 }
 
 .film-card img {
@@ -20,4 +21,8 @@ gap:20px ;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
+}
+
+.film-card:hover{
+    transform: scale(1.05) rotate(3deg);
 }
